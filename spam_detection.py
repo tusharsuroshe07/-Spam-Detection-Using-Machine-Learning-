@@ -50,4 +50,5 @@ sample = ["Are we still meeting today?"]
 sample_tf = vectorizer.transform(sample)
 prediction = model.predict(sample_tf)[0]
 
+# final Prediction
 print("\nCustom message prediction:", "Spam" if prediction else "Ham")
